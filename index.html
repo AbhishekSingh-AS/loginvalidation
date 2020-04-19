@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href= "./Style1.css">
+       <title>Login</title>
+    <img id="tony" src="./title.png"/>
+    <script src="./login.js"></script>
+    </head>
+
+    <body>
+        <div id="Heading">
+            <header>
+            <h1>< Welcome to Our Login Page! /></h1>
+            </header> 
+        <div id="box-model-1">
+            <main>
+                <!-- <div id="login-error-msg-holder">
+                    <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+                  </div> -->
+        <div id="form">
+            <form id="form_id" method="post" name="myform">
+               
+                <h1>Enter Your Credentials here: </h1>
+                <label id="fName"for="First Name">User Name</label><br>
+                <input type ="text" name="username" id="username" Placeholder="Enter User Name" required/>
+                
+                <br>
+                
+                <label for=" Password">Password</label><br>
+                <input type ="password" name="password" id="password" Placeholder="Enter Password" required min="8"/>
+                <br>
+
+                <!-- <div id="forgot">
+                    <a href="#">Forgot Password?</a>
+
+                <div id="remember">
+                    <input type="checkbox"> Remember Me
+
+                </div>
+                <br> -->
+                <input id="bt" type="button" value="Login" id="submit" onclick="validate()"/>
+               
+                <!-- <div id="Already">
+                     <a href="#">Already a user?</a>
+
+                </div> -->
+                <p>Use Username as "user" and password as "qwertyuiop"</p>
+
+             </form>
+        </div>
+    </main>
+    </div>
+    </body>
+</html>
